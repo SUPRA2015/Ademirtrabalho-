@@ -3,26 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Redes Sociais</title>
+    <meta name="description" content="Relatório sobre a influência das redes sociais no comportamento das pessoas em praias ao redor do mundo.">
+    <title>Relatório Praiano</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.plot.ly/plotly-2.27.0.min.js" charset="utf-8"></script>
+    <style>
+        body {
+            background-color: #87CEEB;
+            color: #FFF;
+        }
+
+        header {
+            background-color: #FFD700;
+            padding: 20px;
+        }
+
+        header nav a {
+            color: #2E8B57;
+            margin-right: 15px;
+            text-decoration: none;
+        }
+
+        header nav a:hover {
+            text-decoration: underline;
+        }
+
+        .graficos-container {
+            background-color: #FFFACD;
+            border-radius: 10px;
+            padding: 20px;
+        }
+
+        h2 {
+            color: #FF6347;
+        }
+
+        footer {
+            background-color: #FFD700;
+            text-align: center;
+            padding: 10px;
+        }
+
+        footer p {
+            color: #2E8B57;
+        }
+
+        @media (max-width: 768px) {
+            header {
+                padding: 15px;
+            }
+
+            .graficos-container {
+                padding: 15px;
+            }
+
+            footer {
+                padding: 15px;
+            }
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>Relatório das redes sociais</h1>
+        <h1>Relatório Praiano: Redes Sociais e o Mundo das Praias</h1>
         <nav>
-            <a href="index.html">Mundo</a>
-            <a href="#">Minha escola</a>
+            <a href="index.html" aria-label="Ir para as praias do mundo">Praias do Mundo</a>
+            <a href="#" aria-label="Ir para minha praia">Minha Praia</a>
         </nav>
     </header>
+    
     <main class="graficos-section">
         <section id="graficos-container" class="graficos-container">
-            <!-- crie os gráficos/texto aqui -->
+            <h2>Análise das Redes Sociais no Contexto Praiano</h2>
+            <p>Exploração de dados sobre como as redes sociais estão conectadas ao mundo das praias e suas influências no comportamento digital.</p>
         </section>
     </main>
+    
     <footer>
-        <p>Desenvolvido por Gui Lima</p>
+        <p>Desenvolvido por Igor Migon Roque | Praia & Tecnologia</p>
     </footer>
+
     <script type="module" src="graficos/common.js"></script>
     <script type="module" src="graficos/informacoesGlobais.js"></script>
     <script type="module" src="graficos/quantidadeUsuarios.js"></script>
